@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+
+    <!-- HorizontalScrollView for breadcrumbs -->
+    <HorizontalScrollView
+        android:id="@+id/breadcrumbs_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/breadcrumbs_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <!-- Textbox and Button for adding place -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtPlaceFact1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Nhập tên khu vực"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnAddPlace1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm khu vực" />
+    </LinearLayout>
+
+    <!-- Textbox and Button for adding devices -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtDeviceFact1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Nhập tên Thiết Bị"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnAddDevice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm thiết bị" />
+    </LinearLayout>
+
+    <!-- Header TextView for ListView lvPlaceFact1 -->
+    <TextView
+        android:id="@+id/txtPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Khu vực" />
+
+    <!-- ListView lvPlaceFact1 -->
+    <ListView
+        android:id="@+id/lvPlaceFact1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+    <!-- Header TextView for ListView lvDeviceFact1 -->
+    <TextView
+        android:id="@+id/txtDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thiết bị" />
+
+    <!-- ListView lvDeviceFact1 -->
+    <ListView
+        android:id="@+id/lvDeviceFact1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

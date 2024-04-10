@@ -1,19 +1,27 @@
-Dự án này dùng để quản lý thiết bị trong nhà máy Kumho Tire một cách dễ dàng hơn.
+Tên Source File là: Manage Device là đã bao nhiêu lần Test & nhiều lần làm. Là File chính;
 
-1. Đầu tiên: Khi khởi động app : Sẽ đến màn hình đăng nhập:
 
-![image](https://github.com/nguyenn2k/Kumho-Tire-Manage-Devices-Application/assets/96371866/f98f9258-9a90-46b9-8ee5-ad2cc070253b)
+Đầu tiên, khi khởi động App lên sẽ cho ra một màn hình đăng nhập (Login):
+![image](https://github.com/nguyenn2k/Kumho_Tire_Manage_Devices_App/assets/96371866/a5012209-afb6-4c0f-b6e1-a8582915e76f)
 
-2. Sau khi đăng nhập thành công xong, sẽ đến màn hình chính:
-![image](https://github.com/nguyenn2k/Kumho-Tire-Manage-Devices-Application/assets/96371866/3cf53049-3a81-404f-9144-d816fc6d45f1)
+Sau khi đăng nhập thành công xong bằng UserID & Password có trên Database, sẽ đến màn hình chính:
+![image](https://github.com/nguyenn2k/Kumho_Tire_Manage_Devices_App/assets/96371866/a5f586da-8fee-443e-870e-9673d66c1fd3)
 
-Gồm có: Nhà máy, Thông tin App, Exit (Thoát);
+Khi nhấn vào nút 'Nhà máy', sẽ hiện ra một activity khác để chúng nhập tên nhà máy vào listview, ví dụ ở đầy mình thêm vào trong  listview Nhà máy là 'KTV' tức là Kumho Tire Vietnam:
+![image](https://github.com/nguyenn2k/Kumho_Tire_Manage_Devices_App/assets/96371866/ea1916f4-6d70-4b5e-8d4b-344aa1540886)
 
-3. Khi nhấn nút "Nhà máy" sẽ đến màn hình "Nhà máy":
-VD: Như trong hình, đó là nhà máy "Kumho Tire":
-![image](https://github.com/nguyenn2k/Kumho-Tire-Manage-Devices-Application/assets/96371866/3011454b-0d40-49e8-a276-72bcb6098d65)
+Khi Click vào item trong Listview Nhà máy có tên là KTV, thì sẽ hiển thị một activity khác chứa 'Khu vực' & 'Thiết bị' có trong nhà máy KTV đó:
+![image](https://github.com/nguyenn2k/Kumho_Tire_Manage_Devices_App/assets/96371866/518ac790-de72-4246-8120-0f054925876e)
+như ảnh trên thấy rằng: 'Phong IT' & 'Camera' đều thuộc nằm trong nhà máy KTV.
 
-3.1: Khi nhấn vào nhà máy "Kumho Tire", sẽ cho ra danh sách các "Khu vực" và "Thiết bị" có trong nhà máy "Kumho Tire" đó:
-![image](https://github.com/nguyenn2k/Kumho-Tire-Manage-Devices-Application/assets/96371866/d0c673c3-252f-41a2-a024-aa72a850b912)
+Trong Nhà máy KTV, tại Thiết bị: 'Camera' thì khi chúng ta nhấn vào item đó:
+![image](https://github.com/nguyenn2k/Kumho_Tire_Manage_Devices_App/assets/96371866/7817e25b-36cc-4f46-9b12-ec6ec1a1a8e0)
+thì sẽ ra một thông tin thuộc item Thiết bị đó:
+![image](https://github.com/nguyenn2k/Kumho_Tire_Manage_Devices_App/assets/96371866/581b048b-973b-4bad-9025-94683a0317f8)
 
-![image](https://github.com/nguyenn2k/Kumho-Tire-Manage-Devices-Application/assets/96371866/87ff3084-74e5-477a-9507-c0f0d762445e)
+
+
+
+
+
+
